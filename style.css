@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+  }
+  nav{
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    width: 70%;
+    right: 0;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+ /* *******************************THIS SECTION IS FOR MOBILE VERSIONS ONLY ****************************************** */
+  @media (max-width: 768px){
+    .checkbtn{
+      display: block;
+    }
+    body{
+      position: fixed;
+      padding: auto;
+      margin: auto;
+    }
+ ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: black;
+      top: 95px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .index_image {
+      display: none;
+    }
+    .hide_on_mobile {
+      display: none;
+    }
+    .phone_ver{
+      font-size: 25px;
+      text-align: center;
+      top: 150px;
+      left: auto;
+      right: auto;
+    }
+      .hello_phn {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        height: 25vh; /* 100% of the viewport height */
+    }
+    .hello_phn img {
+        max-width: 50%; /* Adjust the width as needed */
+        height: auto; /* Maintain the aspect ratio */
+    }
+  
+}
+
+/* *********************************************************Mobile Version End****************************************** */
+  /* section{ 
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  } */
+  .hello{
+    position: fixed;
+    top: 0;
+    height: 150px;
+    left: 0px;
+    width: 250px;
+    background: transparent;
+  }
+
+  .index_image {
+  position: fixed;
+  top:200px ;
+  right: 25px;
+  height: 550px;
+  width: 900px;
+  float: right;
+  margin-top:middle;
+}
+
+
+h1 {
+    font-family: "Arial Rounded MT", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 170px;
+    left: 35px;
+    text-shadow: 0 0 10px whitesmoke;
+    font-weight: bold;  
+  } 
+
+h3{
+  font-family: Arial, sans-serif;
+  text-decoration: white;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  text-align: justify;
+  position: relative;
+  top: 220px;
+  left: 35px;
+}
+
+p{
+  font-family: Arial, sans-serif;
+  text-decoration: white;
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+  text-align: justify;
+  position: relative;
+  top: 250px;
+  left: 35px;
+  text-overflow: inherit;
+  
+}
+
+.hide-on-mobile {
+  border: 3px solid black;
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  width: 40%;
+  height: 60%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:black; /* Background color for the footer */
+  color: white; /* Text color for the footer */
+  text-align: center; /* Center-align the content within the footer */
+  padding: 10px 0; /* Add padding for better spacing */
+  display: flex; /* Enable flex layout for the footer */
+  justify-content: center; /* Center-align content horizontally */
+}
+
+/* Style the copyright text */
+.copyright {
+  font-size: 17px; /* Adjust the font size as needed */
+}
+
+/* Style the terms and conditions link */
+.terms a {
+  color:blue; /* Link color */
+  text-decoration: none; /* Remove underline from the link */
+  font-weight: bold; /* Make the link bold */
+}
+
+/* Add spacing between copyright and terms (optional) */
+.terms {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+
+
+
+

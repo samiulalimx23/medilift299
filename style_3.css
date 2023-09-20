@@ -1,0 +1,546 @@
+/* body Style */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, black 20%, white 20%, white 100%);
+}
+
+body {
+    background-color: white; /* White background for the bottom half */
+}
+
+.toptext{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    height: 60%;
+  }
+/* Content Style */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background to the content */
+    border-radius: 10px; /* Add rounded corners to the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the content */
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.active-link {
+    color: blue;
+    text-decoration: underline;
+}
+/* Set the background color for the bottom half to white */
+body {
+    background-color: white; /* White background for the bottom half */
+}
+
+/* Logo Style */
+/* Logo Style */
+.logo img {
+    max-width: 100%;
+}
+
+/* Style the main content */
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+/* Style the "Login" link as active */
+/* Style the "Login" link as active */
+.active-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.toptext{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    height: 60%;
+  }
+
+  h1 {
+    font-family: "Arial Rounded MT", sans-serif;
+    text-decoration: white;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    text-align: justify;
+    position: fixed;
+    top: 20px;
+    left: 880px;
+    font-weight: bold;  
+  } 
+  h2 {
+    font-family: "Arial Rounded MT", sans-serif;
+    text-decoration: white;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    text-align: justify;
+    position: fixed;
+    top: 70px;
+    left: 1750px;
+    font-weight: bold;  
+  } 
+
+  p{
+    position: fixed;
+    top: 70px;
+    left: 560px;
+}
+
+  .hello1{
+    position: fixed;
+    top: 0;
+    height: 150px;
+    left: 0px;
+    width: 250px;
+  }
+
+
+
+.hello2{
+    position: fixed;
+    top: 25px;
+    max-width: 4%;
+    left: 1750px;
+    
+}
+
+.hello3{
+    position: fixed;
+    top: 25px;
+    max-width: 4%;
+    left: 1750px;
+    
+}
+
+.hello4{
+    position: fixed;
+    top: 25px;
+    max-width: 4%;
+    left: 1750px;
+    
+}
+
+.hello5{
+    position: fixed;
+    top: 25px;
+    max-width: 4%;
+    left: 1750px;
+    
+}
+.usertoplogo{
+    position: fixed;
+    top: 30px;
+    left: 850px;
+}
+    
+.hospitallogo{
+    position: fixed;
+    top: 70px;
+    left: 1700px;
+}
+
+
+.guestlogo{
+    position: fixed;
+    top: 70px;
+    left: 1735px;
+}
+
+.ambulancelogo{
+    position: fixed;
+    top: 70px;
+    left: 1690px;
+}
+
+
+.ambulancetoplogo{
+    position: fixed;
+    top: 30px;
+    left: 850px;
+}
+/* ALL BUTTONS HERE */
+/* ALL BUTTONS HERE */
+  /* Style the "Home" button */
+.home-button {
+    position: absolute; /* Position the button absolutely within the header */
+    top: 120px; /* Align it to the top */
+    left: 85px; /* Align it to the left */
+    margin: 10px; /* Add some margin for spacing */
+}
+
+/* Style the black "Home" button */
+.black-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.black-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "Sign" button */
+.signup-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 850px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button1 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.black-button1:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "Sign" button */
+.accept-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 850px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button2 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button2:hover {
+    background-color: #0056b3;
+}
+
+.contactdriver-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 550px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button3 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button3:hover {
+    background-color: #0056b3;
+}
+
+.endcall-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 1050px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button4 {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button4:hover {
+    background-color:red;
+}
+
+.next-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 850px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button5 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button5:hover {
+    background-color: #0056b3;
+}
+
+.adddriver-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 120px; /* Align it to the top */
+    left: 820px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button6 {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button6:hover {
+    background-color:#0056b3;
+}
+
+.signuphospital-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 850px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button7 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button7:hover {
+    background-color: #0056b3;
+}
+
+.senddispatch-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 550px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button8 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button8:hover {
+    background-color: #0056b3;
+}
+
+.forward-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 1050px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button9 {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button9:hover {
+    background-color:#0056b3;
+}
+
+.hospitaltoplogo{
+    position: fixed;
+    top: 30px;
+    left: 850px;
+}
+
+
+.dispatch-button {
+    position: absolute; /* Position the button absolutely within the header */
+    top:300px; /* Align it to the top */
+    left: 200px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button10 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button10:hover {
+    background-color: #0056b3;
+}
+
+.attendant-button {
+    position: absolute; /* Position the button absolutely within the header */
+    top:400px; /* Align it to the top */
+    left: 190px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button11 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button11:hover {
+    background-color: #0056b3;
+}
+
+.disconnect-button {
+    position: absolute; /* Position the button absolutely within the header */
+    top:500px;/* Align it to the top */
+    left: 180px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button12 {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button12:hover {
+    background-color:red;
+}
+
+.operatorcall-button {
+    position: absolute; /* Position the button absolutely within the header */
+    top:800px;/* Align it to the top */
+    left: 180px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button13 {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button13:hover {
+    background-color:#0056b3;
+}
+
+.acceptandcall-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 550px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button14 {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button14:hover {
+    background-color: #0056b3;
+}
+
+.decline-button {
+    position: absolute; /* Position the button absolutely within the header */
+    bottom: 50px; /* Align it to the top */
+    left: 1050px; /* Align it to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.black-button15 {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.black-button15:hover {
+    background-color:red;
+}
+
+
+
+/* Below part and Copyright section */
+/* Below part and Copyright section */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    color: black; /* Text color for the footer */
+    text-align: center; /* Center-align the content within the footer */
+    padding: 10px 0; /* Add padding for better spacing */
+    display: flex; /* Enable flex layout for the footer */
+    justify-content: center; /* Center-align content horizontally */
+  }
+  
+  /* Style the copyright text */
+  .copyright {
+    font-size: 17px; /* Adjust the font size as needed */
+  }
+  
+  /* Style the terms and conditions link */
+  .terms a {
+    color:blue; /* Link color */
+    text-decoration: none; /* Remove underline from the link */
+    font-weight: bold; /* Make the link bold */
+  }
+  
+  /* Add spacing between copyright and terms (optional) */
+  .terms {
+    margin-left: 20px; /* Adjust the margin as needed */
+  }
+
+  /* Samiul ALim 173 1883 */
